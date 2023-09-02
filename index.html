@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jane Doe - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Jane Doe
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          jdoe@jeemail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +13456764598
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="data:image/png;base64,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" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Ojo inioluwa <img src="https://twemoji.maxcdn.com/2/72x72/1f44b.png" width="60px"/>
+          </h1>
+          <p>
+           I am a 300l computer science student and a frnt end developer.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>1 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>  
+        <div class="skill">
+          <img src="html_finalprojimages/react.png"/>
+          <h6>react</h6>
+          <p>3 years experience</p>
+        </div>  
+        <div class="skill">
+          <img src="html_finalprojimages/phone.png"/>
+          <h6>phone</h6>
+          <p>3 years experience</p>
+        </div>  
+        <div class="skill">
+          <img src="html_finalprojimages/node.png"/>
+          <h6>node</h6>
+          <p>3 years experience</p>
+        </div>  
+        <div class="skill">
+          <img src="html_finalprojimages/java.png"/>
+          <h6>java</h6>
+          <p>3 years experience</p>
+        </div>  
+
+       
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="project-card" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Chatbot</h3>
+            <ul>
+              <li>Developed a secure website integrated with chatbot for an automobile client using HTML, CSS, JavaScript and IBM Watson Assistant</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Sentiment Analyzer</h3>
+            <ul>
+              <li>Developed and deployed a sentiment analyzer for the box reviews section of an eCommerce platform using IBM NLU</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>restuarant Website</h3>
+            <ul>
+              <li>Created a styled multi-page website for a new customers in the restarant and integrated it with a shopping cart, using stripe for payment gateway</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Iniolwa is a very quick learner and quickly grasps key concepts of Web development. 
+          he got a great attitude & she is an excellent team player. 
+          he has a curious mind and asks the right question. 
+          he takes initiative within a team and has potentials to lead the team.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Working with Inioluwa has been an awesome experience. 
+          he is highly knowledgable and always goes the extra step to make sure everything is right. 
+          For any future projects that need her expertise I would definitely want to work with her again.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I had worked along with Inioluwa during the initial phase of our venture which needed Web development. 
+          he is a committed resource who has in depth knowledge about the domain. 
+          he will be an asset for any organisation! 
+          <span>&#8221;</span>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thanks for leaving Recommendation</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
